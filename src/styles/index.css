@@ -10,16 +10,16 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-#app{
+.Contenedor{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
 }
 .traffic-light{
     padding: 50px;
     background: black;
     display:inline-block;
-    margin: auto;
+    border-radius: 30px;
+   
 
 }
 .red{
@@ -36,7 +36,7 @@
 }
 .green{
     background-color: green;
-    border-radius: 50%;
+    border-radius: 50px;
     width: 100px;
     height: 100px;
 
@@ -46,8 +46,8 @@
     width:20px;
     height: 200px;
     background-color: rgb(0, 0, 0);
-    margin: auto;
-    margin-left: 100px;
+    margin-left: 760px;
+    border-radius: 3px;
 }
 .glow{
     box-shadow: 0px 0px 30px 20px #535FED;
